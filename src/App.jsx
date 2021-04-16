@@ -9,6 +9,7 @@ import Numero from './components/Numero'
 import Pai from './components/comunicacao/direta/Pai'
 import Super from './components/comunicacao/indireta/Super'
 import Input from './components/form/input'
+import Contador from './components/contador/Contador'
 
 import './index.css';
 
@@ -46,5 +47,9 @@ export default props =>
 
         <Card titulo="Input">
             <Input></Input>
+        </Card>
+
+        <Card titulo="Contador">
+            <Contador></Contador>
         </Card>
     </div>
